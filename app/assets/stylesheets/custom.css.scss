@@ -1,2 +1,83 @@
+$navbar-default-bg: rgba(204,204,204, 0.5);
+
 @import "bootstrap-sprockets";
 @import "bootstrap";
+
+
+#logo {
+  float: left;
+  font-size: 1.7em;
+  color: #838581;
+  text-transform: uppercase;
+  letter-spacing: -1px;
+  font-weight: bold;
+}
+
+#logo:hover {
+  color: #000;
+  text-decoration: none;
+}
+
+.right {
+  padding-top: 28%;
+  text-align: right;
+}
+
+.jumbotron {
+  letter-spacing: 0.9em;
+  margin: 0;
+  height: 580px;
+  background-image: asset-url('eugene-lim.jpg');
+  background-size: cover;
+  background-position: center;
+}
+
+.jumbotron h1 {
+  color: #c3c3c3;
+  font-weight: bold;
+}
+
+div.right.jumbotron h1, div.right.jumbotron a {
+  padding-right: 40px;
+}
+
+div.right.jumbotron a.btn.btn-secondary.btn-lg:link {
+  color: #e7e7e7;
+}
+
+div.right.jumbotron a.btn.btn-secondary.btn-lg:visited {
+  color: #e7e7e7;
+}
+
+div.right.jumbotron a.btn.btn-secondary.btn-lg:hover {
+  color: #fff;
+}
+
+div.right.jumbotron a.btn.btn-secondary.btn-lg:active {
+  color: #fff;
+}
+
+footer {
+  margin-top: 40px;
+  padding-top: 5px;
+  border-top: 1px solid #eaeaea;
+  color: #777;
+}
+
+footer a:hover {
+  color: #222;
+}
+
+footer small {
+  float: left;
+}
+
+footer ul {
+  float: right;
+  list-style: none;
+}
+
+footer ul li {
+  float: left;
+  margin-left: 15px;
+}
