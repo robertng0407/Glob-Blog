@@ -3,6 +3,10 @@ $navbar-default-bg: rgba(255, 255, 255, 0.7);
 @import "bootstrap-sprockets";
 @import "bootstrap";
 
+html {
+  height: 100%;
+  box-sizing: border-box;
+}
 
 #logo {
   float: left;
@@ -87,11 +91,33 @@ div.right.jumbotron a.btn.btn-secondary.btn-lg:active {
   padding-top: 10px;
 }
 
+.listing {
+  list-style: none;
+  padding-left: 0;
+}
+
 footer {
-  margin-top: 40px;
-  padding-top: 5px;
+  // margin-top: 40px;
+  // padding-top: 5px;
+  z-index: -1;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 50px;
   border-top: 1px solid #eaeaea;
   color: #777;
+  clear: both;
+}
+
+footer.footer small {
+  padding-top: 20px;
+  margin-left: 20px;
+}
+
+footer.footer nav ul {
+  padding-top: 20px;
+  margin-right: 20px;
 }
 
 footer a:hover {
