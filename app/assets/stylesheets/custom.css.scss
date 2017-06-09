@@ -20,6 +20,7 @@ html {
 #logo:hover {
   color: #000;
   text-decoration: none;
+  transition: color 1s ease;
 }
 
 .right {
@@ -42,6 +43,7 @@ html {
 }
 
 div.right.jumbotron h1, div.right.jumbotron a {
+  color: #e7e7e7;
   margin-right: 40px;
 }
 
@@ -50,12 +52,10 @@ div.right.jumbotron a.btn.btn-secondary.btn-lg:link {
   background-color: #2E393C;
 }
 
-div.right.jumbotron a.btn.btn-secondary.btn-lg:visited {
-  color: #e7e7e7;
-}
-
 div.right.jumbotron a.btn.btn-secondary.btn-lg:hover {
   color: #fff;
+  background-color: rgba(11, 35, 39, 0.5);
+  transition: background-color 0.5s ease;
 }
 
 div.right.jumbotron a.btn.btn-secondary.btn-lg:active {
