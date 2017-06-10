@@ -15,6 +15,7 @@ html {
   text-transform: uppercase;
   letter-spacing: 1.3px;
   font-weight: bold;
+  transition: color 1s ease;
 }
 
 #logo:hover {
@@ -49,13 +50,15 @@ div.right.jumbotron h1, div.right.jumbotron a {
 
 div.right.jumbotron a.btn.btn-secondary.btn-lg:link {
   color: #e7e7e7;
-  background-color: #2E393C;
+  background-color: rgba(11, 35, 39, 0.9);
+  transition: background-color 0.8s ease;
 }
 
 div.right.jumbotron a.btn.btn-secondary.btn-lg:hover {
   color: #fff;
   background-color: rgba(11, 35, 39, 0.5);
-  transition: background-color 0.5s ease;
+  border: solid 1px #2E393C;
+  transition: background-color, border 0.8s ease;
 }
 
 div.right.jumbotron a.btn.btn-secondary.btn-lg:active {
