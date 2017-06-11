@@ -99,11 +99,16 @@ div.right.jumbotron a.btn.btn-secondary.btn-lg:active {
   padding-left: 0;
 }
 
+#footer-relative {
+  position: relative;
+  margin-top: 50px;
+}
+
 footer {
   // margin-top: 40px;
   // padding-top: 5px;
-  z-index: -1;
-  position: fixed;
+  // z-index: -1;
+  position: absolute;
   bottom: 0;
   left: 0;
   width: 100%;
