@@ -1,25 +1,16 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+> Dynamic blog application allowing users to freely communicate with the world.
 
-Things you may want to cover:
+## Features
 
-* Ruby version
+* User sign up securing password using bcrypt
 
-* System dependencies
+* CRUD functionality for blog posts
 
-* Configuration
+* Admin users to manage posts
 
-* Database creation
+* Gravatar to display users pictures associated to email
 
-* Database initialization
 
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
-# blog
+# glob-blog
